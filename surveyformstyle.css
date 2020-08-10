@@ -1,0 +1,77 @@
+body{
+	background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	display: flex;
+	justify-content: center;
+	font-family: tahoma;
+}
+#box{
+	color: white;
+	background-color: #755ec8c2;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+#box div{
+	font-size: 24px;
+
+}
+form{
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	background-color: #2b2150c2;
+	border-radius: 10px;
+}
+input{
+	font-size: 24px;
+	padding-left: 10px;
+}
+p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+#info input{
+	width: 92%;
+	margin: 15px;
+	padding: 10px;
+	border-radius: 5px;
+}
+#info label{
+	margin: 15px;
+}
+#option1 select{
+	width: 92%;
+	margin: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+#description{
+	font-size: 24px;
+}
+#recommend input{
+	margin: 15px;
+}
+#improve input{
+	margin: 15px;
+}
+#area textarea{
+	margin: 15px;
+	width: 94%;
+	height: 100px;
+	font-size: 18px;
+}
+#submit{
+	margin: 15px;
+	font-size: 24px;
+	color: white;
+	background-color: #2fa75f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
